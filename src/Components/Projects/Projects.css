@@ -1,0 +1,43 @@
+.projects{
+   margin-left: 10vh;
+}
+.head h1{
+   margin-top:5vh;
+   margin-bottom: 4vh;
+}
+.pro{
+   width: 50vh;
+   height: 35vh;
+   box-shadow: 0 0 4px 3px white;
+}
+.images{
+   width: 50vh;
+}
+.mains{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 8vh;
+}
+.project-title{
+   text-align: center;
+}
+.pro-btns{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0vh 5vh;
+}
+.pro-btns button{
+   outline: none;
+   border: none;
+   font-size: 18px;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px;
+   transition: background-color 0.3s ease-in-out;
+
+}
+.pro-btns button:hover{
+   background-color: #b69d9d;
+   cursor: pointer;
+}
