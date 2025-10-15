@@ -1,0 +1,53 @@
+.contact{
+   margin-top: 8vh;
+   text-align: center;
+}
+.ic{
+   display: flex;
+   border-bottom: 2vh;
+   align-items: center;
+}
+.ic h3{
+   font-size: 26px;
+}
+.ic a svg{
+   margin-top: 12px;
+   display: inline-flex;
+   margin-left: 5vh;
+   height: 4vh;
+}
+.ics a svg{
+   margin-top: 12px;
+   display: inline-flex;
+   margin-left: 5vh;
+   height: 4vh;
+   margin-right: 20vh;
+}
+.ics h3{
+   font-size: 26px;
+}
+.ics{
+   display: flex;
+   border-bottom: 2vh;
+   align-items: center;
+}
+
+.ic{
+   margin-left: 10vh;
+   margin-top: 5vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+@media (max-width:900px) {
+  .contact h1{
+   font-size: 30px;
+   min-width: 70vh;
+   margin-left: 0vh;
+  }
+  .ic{
+   display: flex;
+   flex-direction: column;
+  }
+}

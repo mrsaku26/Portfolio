@@ -1,0 +1,41 @@
+.about{
+   margin-top: 10vh;
+   margin-left: 20vh;
+}
+.about h1{
+   color: rgb(211, 153, 18);
+   margin-bottom: 2vh;
+}
+.about p{
+   max-width: 150vh;
+}
+.bot-h1{
+   margin-top: 2vh;
+}
+
+.bottom p{
+   margin-top: 1vh;
+     font-size: 17px;
+}
+
+.bottom span{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.low h1{
+   margin-top: 2vh;
+}
+.low span{
+   padding-right: 2vh;
+}
+
+@media (max-width:900px) {
+  .about p{
+   min-width: 70vh;
+  }
+  .top{
+   max-width: auto;
+  }
+
+}
