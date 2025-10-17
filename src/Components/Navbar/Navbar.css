@@ -35,6 +35,14 @@
 }
 @media (max-width:1100px) {
    .nav-left h1{
+     margin-left: 5vh;
+   }
+   .nav-mid{
+      margin-left: -70vh;
+   }
+}
+@media (max-width:1300px) {
+   .nav-left h1{
      margin-left: vh;
    }
    .nav-mid{

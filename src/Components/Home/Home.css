@@ -39,6 +39,26 @@
 .icon:hover{
    background-color: #b69d9d;
 }
+
+@media (max-width:1300px) {
+   .home{
+      display: flex;
+      align-items: center;
+      margin-left: -18vh;
+   }
+   .left img{
+      height: 400px;
+      width: 400px;
+      border-radius: 50%;
+   }
+   .right h1{
+      font-size: 35px;
+      min-width: 40vh;
+   }
+  .right p{
+      font-size: 16px;
+   }
+}
 @media (max-width:900px) {
    .home{
       display: flex;
@@ -54,7 +74,7 @@
       font-size: 25px;
       min-width: 40vh;
    }
-   .right{
-      
+   .left img{
+      margin-top: -15vh;
    }
 }

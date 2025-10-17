@@ -42,3 +42,44 @@
    background-color: #b69d9d;
    cursor: pointer;
 }
+@media (max-width:1650px) {
+   .pro{
+      width: 40vh;
+      height: 33vh;
+   }
+   .images{
+      width: 40vh;
+   }
+   .mains{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+   }
+ 
+
+}
+@media (max-width:1300px) {
+   .pro{
+      width: 40vh;
+      height: 33vh;
+   }
+   .images{
+      width: 40vh;
+   }
+   .mains{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+ 
+
+}
+@media (max-width:500px) {
+   .head h1{
+      margin: 8vh;
+      min-width: 50vh;
+   }
+   .mains{
+      margin-left: 8vh;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+}
