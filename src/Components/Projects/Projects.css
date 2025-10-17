@@ -31,10 +31,10 @@
 .pro-btns button{
    outline: none;
    border: none;
-   font-size: 18px;
+   font-size: 16px;
    border: 1px solid white;
    border-radius: 5px;
-   padding: 10px;
+   padding: 7px;
    transition: background-color 0.3s ease-in-out;
 
 }
@@ -67,7 +67,7 @@
    }
    .mains{
       display: grid;
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(3,1fr);
    }
  
 
@@ -78,8 +78,14 @@
       min-width: 50vh;
    }
    .mains{
-      margin-left: 8vh;
       display: grid;
       grid-template-columns: repeat(1,1fr);
+   }
+    .pro{
+      width: 75vh;
+      height: 55vh;
+   }
+   .images{
+      width: 75vh;
    }
 }
