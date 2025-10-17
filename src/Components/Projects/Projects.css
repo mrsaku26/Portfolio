@@ -9,6 +9,7 @@
    width: 50vh;
    height: 35vh;
    box-shadow: 0 0 4px 3px white;
+   border-radius: 6px;
 }
 .images{
    width: 50vh;
