@@ -8,9 +8,17 @@ import food from "../../assets/food.png";
 import car from "../../assets/car.png";
 import todo from "../../assets/todo.png";
 import calculator from "../../assets/calculator.png";
+import ecommerce from '../../assets/e-commerce.png'
 
 const Projects = () => {
   const project = [
+    {
+      id: 0,
+      image:ecommerce,
+      title: "E-commerce",
+      netify: "https://e-commerce-six-umber.vercel.app",
+      github:"github"
+    },
     {
       id: 1,
       image:youtubeclone,
@@ -60,6 +68,7 @@ const Projects = () => {
       netify: "https://mrsakuprojectcalculator.netlify.app",
       github:"github"
     },
+    
   ];
   return (
     <>
