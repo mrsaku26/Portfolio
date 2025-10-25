@@ -17,7 +17,7 @@ const Projects = () => {
       image:ecommerce,
       title: "E-commerce",
       netify: "https://e-commerce-six-umber.vercel.app",
-      github:"github"
+      github:"https://github.com/mrsaku26/E-commerce"
     },
     {
       id: 1,
