@@ -16,7 +16,7 @@ const Projects = () => {
     {
       id: 0,
       image:blog,
-      title: "E-commerce",
+      title: "Blog",
       netify: "https://blog-three-sigma-89.vercel.app",
       github:"https://github.com/mrsaku26/blog.git"
     },
