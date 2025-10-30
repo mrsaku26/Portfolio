@@ -24,7 +24,7 @@ const Projects = () => {
       image:youtubeclone,
       title: "U-tube Clone",
       netify: "https://mrsakuprojectsvideoclone.netlify.app",
-      github:"github"
+      github:"githubff"
     },
     ,
     {
