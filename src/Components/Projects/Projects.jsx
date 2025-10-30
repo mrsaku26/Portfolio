@@ -9,64 +9,73 @@ import car from "../../assets/car.png";
 import todo from "../../assets/todo.png";
 import calculator from "../../assets/calculator.png";
 import ecommerce from '../../assets/e-commerce.png'
+import blog from '../../assets/blog.png'
 
 const Projects = () => {
   const project = [
     {
       id: 0,
+      image:blog,
+      title: "E-commerce",
+      netify: "https://blog-three-sigma-89.vercel.app",
+      github:"https://github.com/mrsaku26/blog.git"
+    },
+    {
+      id: 1,
       image:ecommerce,
       title: "E-commerce",
       netify: "https://e-commerce-six-umber.vercel.app",
       github:"https://github.com/mrsaku26/E-commerce"
     },
     {
-      id: 1,
+      id: 2,
       image:youtubeclone,
       title: "U-tube Clone",
       netify: "https://mrsakuprojectsvideoclone.netlify.app",
-      github:"githubff"
+      github:"https://github.com/mrsaku26/Projects.git"
     },
     ,
     {
-      id: 2,
+      id: 3,
        image:todo,
       title: "To Do App",
       netify: "https://mrsakuprojecttodolist.netlify.app/",
-      github:"github"
-    },
-    {
-      id: 3,
-       image:food,
-      title: "Food App",
-      netify: "https://mrsakuprojectsfoodapp.netlify.app",
-      github:"github"
+      github:"https://github.com/mrsaku26/Projects.git"
     },
     {
       id: 4,
-       image:login,
-      title: "Login Form",
-      netify: "https://mrsakuprojectloginform.netlify.app",
-      github:"github"
+       image:food,
+      title: "Food App",
+      netify: "https://mrsakuprojectsfoodapp.netlify.app",
+      github:"https://github.com/mrsaku26/Projects.git"
     },
     {
       id: 5,
-       image:car,
-      title: "Cars Brand",
-      netify: "https://mrsakuprojectcars.netlify.app",
+       image:login,
+      title: "Login Form",
+      netify: "https://mrsakuprojectloginform.netlify.app",
+      github:"https://github.com/mrsaku26/Projects.git"
     },
     {
       id: 6,
-       image:weather,
-      title: "Weather App",
-      netify: "https://mrsakuprojectweatherapp.netlify.app",
-      github:"github"
+       image:car,
+      title: "Cars Brand",
+      netify: "https://mrsakuprojectcars.netlify.app",
+      github:"https://github.com/mrsaku26/Projects.git"
     },
     {
       id: 7,
+       image:weather,
+      title: "Weather App",
+      netify: "https://mrsakuprojectweatherapp.netlify.app",
+      github:"https://github.com/mrsaku26/Projects.git"
+    },
+    {
+      id: 8,
        image:calculator,
       title: "Calculator",
       netify: "https://mrsakuprojectcalculator.netlify.app",
-      github:"github"
+      github:"https://github.com/mrsaku26/Projects.git"
     },
     
   ];
