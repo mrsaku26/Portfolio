@@ -10,16 +10,16 @@ const Contact = () => {
       <div className="ic">
        <div className="ics">
          <h3>Facebook</h3>
-        <a href=""><FontAwesomeIcon icon={faFacebook}/></a>
+        <a href="https://www.facebook.com/profile.php?id=61582520545743"><FontAwesomeIcon icon={faFacebook}/></a>
       </div>
        <div className="ics">
         <h3>GitHub</h3>
-        <a href="https://github.com/Sangitkc/project.git">
+        <a href="https://github.com/mrsaku26">
         <FontAwesomeIcon  icon={faGithub}/></a>
       </div>
        <div className="ics">
         <h3>Instagram</h3>
-        <a href=""><FontAwesomeIcon icon={faInstagram}/></a>
+        <a href="https://www.instagram.com/mrsaku84?utm_source=qr&igsh=bWNpN2ljNzVtNHpx"><FontAwesomeIcon icon={faInstagram}/></a>
        </div>
       </div>
     </div>

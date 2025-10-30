@@ -23,13 +23,13 @@ const Home = () => {
             <br /> E-commerce website, Ai-based blog platform and YouTube clone. I love truning ideas into interactive and scalable web applications.
           </p>
           <div className="icons">
-            <a href="">
+            <a href="https://www.facebook.com/profile.php?id=61582520545743">
            <FontAwesomeIcon icon={faFacebook}  className="icon"/>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/mrsaku84?utm_source=qr&igsh=bWNpN2ljNzVtNHpx">
               <FontAwesomeIcon icon={faInstagram}  className="icon"/>
             </a>
-            <a href="https://github.com/Sangitkc/project.git">
+            <a href="https://github.com/mrsaku26">
               <FontAwesomeIcon icon={faGithub} className="icon"/>
             </a>
           </div>
